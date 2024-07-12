@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkorange;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: underline solid;
+}
+
+.First-paragraph {
+    color: red;
+    background-color: rgb(201, 201, 63);
+}
+
+.Second-paragraph {
+    color: green;
+    background-color: lightcoral;
+}
+
+.Third-paragraph {
+    color: magenta;
+    background-color: lightgray;
+}

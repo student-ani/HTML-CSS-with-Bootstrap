@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: yellow;
+        }
+
+        /* class selector */
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: aqua;
+        }
+
+        p {
+            background-color: green;
+        }
+
+        /* id selector */
+        #orange {
+            background-color: orange;
+        }
+
+        /* Child Selector 
+            div > p {
+                color: red;
+                background-color: rgb(67, 230, 67)
+            }*/
+        /* Descendent Selector */
+        div p {
+            color: red;
+            background-color: rgb(67, 230, 67)
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+            a:visited {
+                color: blueviolet;
+            }
+
+            a:link {
+                color: lightseagreen;
+            }
+
+            a:active {
+                color: chartreuse;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        hello
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <br />
+    <a href="https://www.facebook.com">Go to facebook</a>
+    <div>
+        how are you
+        <article>
+            <p> How is today ? </p>
+        </article>
+    </div>
+    <div class="blue">
+        hey!
+    </div>
+    <div id="orange">
+        I'm also fine
+    </div>
+    <p>
+        I'm good and what about you
+    </p>
+
+</body>
+
+</html>

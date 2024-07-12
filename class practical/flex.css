@@ -1,0 +1,23 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: pink;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px (0,0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+}

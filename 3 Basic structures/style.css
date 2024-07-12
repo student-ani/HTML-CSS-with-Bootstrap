@@ -1,0 +1,4 @@
+body{
+    background-color: purple;
+    background-image: -moz-linear-gradient(background-color);
+}

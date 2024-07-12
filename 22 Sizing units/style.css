@@ -1,0 +1,16 @@
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    margin: 23px auto; /* center */
+    background-color: bisque;
+}
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    height: 80vh;
+    margin: 23px auto;
+    font-size: 18px;
+    background-color: aquamarine;
+}

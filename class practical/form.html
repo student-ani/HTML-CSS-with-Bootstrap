@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <form method="post" action="#">
+        Name
+        <input type="text" name="Enter your name" size="20" maxlength="10" autofocus><br>
+        Phone
+        <input type="tel" name="phone_number" maxlength=""><br>
+        Email
+        <input type="email" name="email_address"><br>
+        Hidden
+        <input type="hidden" name="hidden" value="Hidden_value" <br>
+
+        <input type="number" name="quantity" min="1" max="5"><br>
+        Color: <input type="color"> <br>
+        Range: <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="50" width="20"><br>
+
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" /><button>Search</button> <br>
+
+        URL: <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required /> <br>
+        <feildset>
+        <legend>Which taxi do you required</legend>
+        <input type="radio" name="taxi" value="car"> Car
+        <input type="radio" name="taxi" value="van"> Van 
+        <input type="radio" name="taxi" value="tuktuk"> Tuk tuk
+        </feildset><br>
+        <fieldset>
+            <legend>
+                <input type="checkbox" name="extras" value="baby"> Car 
+            </legend>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
